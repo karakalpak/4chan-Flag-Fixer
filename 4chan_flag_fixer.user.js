@@ -31,9 +31,8 @@ var setup = {
             'Save Preset</button></div><br/>';
 		var helpText = '<label name="fixedflagslabel"><a href="https://github.com/karakalpak/4chan-Flag-Fixer" style="color:blue">Click here</a> for a complete description of each preset.</label>';
         var filterRadio = '<br/><form id="filterRadio">' +
-            '<input type="radio" name="filterRadio" id="filterRadiofixed" style="display: inline !important;" value="fixed"><label>Fixed: flags are updated and glossed</label>' +
-            '<br/><input type="radio" name="filterRadio" id="filterRadiounofficial" style="display: inline !important;" value="unofficial"><label>Unofficial: use unofficial flags</label>' +
-            '<br/><input type="radio" name="filterRadio" id="filterRadioofficial" style="display: inline !important;" value="official"><label>Official only: only use official flags</label>' +
+            '<input type="radio" name="filterRadio" id="filterRadiofixed" style="display: inline !important;" value="fixed"><label>Fixed: flags are updated and remade</label>' +
+            '<br/><input type="radio" name="filterRadio" id="filterRadioofficial" style="display: inline !important;" value="official"><label>Official only: only use official flags for French overseas departments</label>' +
             '</form>';
 			
         return htmlFixedStart + htmlSaveButton + helpText + filterRadio;
